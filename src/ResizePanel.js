@@ -65,7 +65,6 @@ class ResizePanel extends React.Component {
         : containerParent.scrollHeight - containerParent.clientHeight;
 
       if (overflow) {
-        console.log("overflow", overflow);
         this.setState({
           ...this.state,
           size: isHorizontal
